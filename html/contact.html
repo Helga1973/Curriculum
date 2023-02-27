@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Kanit:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="mijncv.html">Curriculum Vitae</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="contact.html">Contact</a>    
+            </nav>
+        </header>
+       <h3>Wilt u meer weten?</h3>
+       Vul onderstaand formulier in en ik neem contact met u op!<br><br>
+        <form id="contactform" action="https://formspree.io/f/xbjeoelk" method="post">
+        <table>
+            <tr>
+                <td><label for="voonaam">Voornaam:</label></td>
+                <td><input id="voonaam" type="text" name="voornaam"></td>
+            </tr>
+            <tr>
+                <td><label for="achternaam">Achternaam:</label></td>
+                <td><input id="achternaam" type="text" name="achternaam"></td>
+            </tr>
+            <tr>
+                <td><label for="geslacht">Geslacht:</label></td>
+                <td><input type="radio" id="geslacht" name="geslacht" value="man" checked>Man
+                    <input type="radio" name="geslacht" value="vrouw">Vrouw
+                    <input type="radio" name="geslacht" value="anders">Anders</td>
+            </tr>
+            <tr>
+                <td><label for="adres">Adres:</label></td>
+                <td><input type="text" id="adres" name="adres"></td>
+            </tr>
+            <tr>
+                <td><label for="postcode">Postcode:</label></td>
+                <td><input type="text" id="postcode" name="postcode"></td>
+            </tr>
+            <tr>
+                <td><label for="woonplaats">Woonplaats:</label></td>
+                <td><input type="text" id="woonplaats" name="woonplaats"></td>
+            </tr>
+            <tr>
+                <td><label for="telefoonnummer">Telefoonnummer</label></td>
+                <td><input type="tel" maxlength="10" id="telefoonnummer" name="telefoonnummer"></td>
+            </tr>
+            <tr>
+                <td><label for="e-mail">E-mailadres</label></td>
+                <td><input type="email" id="e-mail" name="e-mail"></td>
+            </tr>
+            <tr>
+                <td>Waar wilt u informatie over?</td>
+                <td><textarea name ="bericht" maxlength ="1500">
+                </textarea></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td><td>
+            <i>U kunt de rechteronderhoek van het tekstvak slepen om de<br> gewenste grootte van het tekstvak te krijgen.</i></td>
+            <tr><td>&nbsp;</td>
+            <td><button type="submit" name="Verzendknop">
+                <strong>Verzend</strong></button></td>
+        </table>
+        </form><br><br>
+        <footer>
+Copyright: © Helga van Duinen, 2023
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valide CSS!">
+        </a>
+        </footer>
+    </body>
+</html>
